@@ -1,7 +1,6 @@
 # abox
 
 [![npm version](https://img.shields.io/npm/v/abox.svg?style=flat-square)](https://www.npmjs.com/package/abox)
-
 ![https://github.com/aboxjs/abox/actions?query=test](https://github.com/aboxjs/abox/workflows/test/badge.svg)
 
 > 轻量的数据管理器
