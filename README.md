@@ -1,7 +1,9 @@
 # abox
 
-[![npm version](https://img.shields.io/npm/v/abox.svg?style=flat-square)](https://www.npmjs.com/package/redux)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/aboxjs/abox/Tests/master?style=flat-square)
+[![npm version](https://img.shields.io/npm/v/abox.svg?style=flat-square)](https://www.npmjs.com/package/abox)
+
+[github-action-image]: https://github.com/aboxjs/abox/workflows/%E2%9C%85%20test/badge.svg
+[github-action-url]: https://github.com/aboxjs/abox/actions?query=workflow%3A%22%E2%9C%85+test%22
 
 > 轻量的数据管理器
 
@@ -29,10 +31,13 @@ const mArticles = ()=>{
         loading:false,
         list:[],
         actions:{
+            setLoading(status){
+              this.core.updateData({
+                  loading:status
+              })  
+            },
             async getPageData(){
-                this.core.updateData({
-                    loading:true
-                })
+                this.actions.setLoading(true)
                 try{
                     const data = await fetch('/api/articles');
                     
@@ -41,9 +46,7 @@ const mArticles = ()=>{
                     })
                 }
                 finally {
-                    this.core.updateData({
-                        loading:false
-                    }) 
+                    this.actions.setLoading(false)
                 }
             }
         }
