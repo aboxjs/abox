@@ -1,8 +1,8 @@
 {
-  "name": "abox",
+  "name": "rbox",
   "version": "1.0.0",
   "description": "数据管理器",
-  "repository": "github:aboxjs/abox",
+  "repository": "github:rboxjs/rbox",
   "scripts": {
     "build": "microbundle",
     "test": "jest --coverage"

@@ -1,7 +1,7 @@
-# abox
+# rbox
 
-[![npm version](https://img.shields.io/npm/v/abox.svg?style=flat-square)](https://www.npmjs.com/package/abox)
-![https://github.com/aboxjs/abox/actions?query=test](https://github.com/aboxjs/abox/workflows/test/badge.svg)
+[![npm version](https://img.shields.io/npm/v/rbox.svg?style=flat-square)](https://www.npmjs.com/package/rbox)
+![https://github.com/rboxjs/rbox/actions?query=test](https://github.com/aboxjs/rbox/workflows/test/badge.svg)
 
 > 轻量的数据管理器
 
@@ -10,19 +10,19 @@
 * 完美支持typescript
 
 ## 文档 
-详细的文档请点击 [这里](https://abox.yujing.link)
+详细的文档请点击 [这里](https://rbox.yujing.link)
 
 ## 快速开始
 
 1. 安装依赖
 
-`npm install abox --save` <br />
-`npm install abox-react --save` <br />
+`npm install rbox --save` <br />
+`npm install rbox-react --save` <br />
 
 2. 定义数据
 
 ```typescript
-import {createStore} from 'abox'
+import {createStore} from 'rbox'
 
 const mArticles = ()=>{
     return createStore({
@@ -56,7 +56,7 @@ const mArticles = ()=>{
 
 ```typescript jsx
 import React,{useEffect} from 'react'
-import {useStores} from 'abox-react'
+import {useStores} from 'rbox-react'
 
 const ArticlesComponent = ()=>{
     const [sArticles] = useStores([mArticles()])
