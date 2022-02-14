@@ -1,7 +1,7 @@
 # rbox
 
 [![npm version](https://img.shields.io/npm/v/rbox.svg?style=flat-square)](https://www.npmjs.com/package/rbox)
-![https://github.com/rboxjs/rbox/actions?query=test](https://github.com/aboxjs/rbox/workflows/test/badge.svg)
+![https://github.com/rboxjs/rbox/actions?query=test](https://github.com/rboxjs/rbox/workflows/test/badge.svg)
 
 > 轻量的数据管理器
 
