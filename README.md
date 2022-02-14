@@ -13,14 +13,12 @@
 详细的文档请点击 [这里](https://rbox.yujing.link)
 
 ## 快速开始
-
 1. 安装依赖
 
 `npm install rbox --save` <br />
 `npm install rbox-react --save` <br />
 
 2. 定义数据
-
 ```typescript
 import {createStore} from 'rbox'
 
