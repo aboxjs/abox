@@ -9,10 +9,10 @@
 * 高效，没有拐弯抹角的东西
 * 完美支持typescript
 
-## 文档 
+### 文档 
 详细的文档请点击 [这里](https://rbox.yujing.link)
 
-## 快速开始
+### 快速开始
 1. 安装依赖
 
 `npm install rbox --save` <br />
@@ -76,7 +76,7 @@ const ArticlesComponent = ()=>{
 }
 ```
 
-## License
+### License
 
 [MIT](LICENSE.md)
 
